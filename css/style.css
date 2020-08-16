@@ -91,12 +91,13 @@ a {
 	vertical-align: middle;
 	margin-right: 10px;
 	fill: #757575;
+		transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts-link:hover .adress-icon,
 .contacts-link:focus .adress-icon {
 	fill: #2196f3;
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .studio-actv {
@@ -493,7 +494,7 @@ a {
 }
 /* portfolio */
 .portfolio-header {
-	border-bottom: 1px solid #eeeeee;
+	border-bottom:1px solid #ECECEC;
 }
 .portfolio-nav {
 	margin-bottom: 50px;
@@ -562,10 +563,11 @@ a {
 	transition-duration: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.overlay:hover .overlay-description,
-.overlay:focus .overlay-description {
+.example-link:hover .overlay-description,
+.example-link:focus .overlay-description{
 	transform: translateY(-6%);
 }
+
 .example-title {
 	font-weight: bold;
 	font-size: 18px;
@@ -582,5 +584,5 @@ a {
 	margin: 0;
 }
 .examples-card-correct {
-	margin: 20px 0 20px 25px;
+	padding: 20px 0 20px 25px;
 }
